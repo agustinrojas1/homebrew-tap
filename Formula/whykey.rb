@@ -8,11 +8,11 @@ class Whykey < Formula
   # Fully static musl builds, so they run regardless of the host glibc.
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agustinrojas1/whykey/releases/download/v2.4.0/whykey-2.4.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "18e6f932c15de3de9486d55000840db895a8972df90b07bcfbd22f496098bc86"
+      url "https://github.com/agustinrojas1/whykey/releases/download/v2.4.1/whykey-2.4.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "11c1cba1dce42d65b9c60fa86ad5a7589a4669f40d07d60038394af7dbe40119"
     else
-      url "https://github.com/agustinrojas1/whykey/releases/download/v2.4.0/whykey-2.4.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ba62ef2024b9770793a270d5fed04db2f86dd737035b76a1d488029d1e91cd54"
+      url "https://github.com/agustinrojas1/whykey/releases/download/v2.4.1/whykey-2.4.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d84181c4e6705ae85ca3dd35316c67ea4d96ed7b08a990288f86412dca9b40d3"
     end
   end
 
